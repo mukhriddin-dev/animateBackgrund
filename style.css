@@ -11,6 +11,11 @@
     background-image: linear-gradient(to bottom right,  #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
     background-size: 200% 200%;
     animation: myGrade 5s linear infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @keyframes myGrade{
