@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    height: 420px;
+    border:1px solid silver;
+    margin: 8% auto;
+    background-image: linear-gradient(to bottom right,  #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
+    background-size: 200% 200%;
+    animation: myGrade 5s linear infinite alternate;
+}
+
+@keyframes myGrade{
+
+from{
+    background-position: 0 0;
+}
+to{
+    background-position:100% 100%;
+}
+
+}
